@@ -2,19 +2,17 @@
 
 **Rincon, R., Padgett, J.E.**
 
-Welcome to this collaborative folder!
-
 Different sub-models are needed to perform regional-scale risk and resilience assessments of infrastructure systems. We share some models commonly used to perform such analyses in this repository. Currently, this is intended to be shared as a set of scripts that can be accessed and modified once you have copied them to your local machine (rather than a python package). Importing the modules or functions follows the typical structure in Python.
 
-You can install the requirements directly in your preferred environment or use the environment shared in the repo. For the latter, clone this repo to your local machine. Create a conda environment using the **risk_resilience.yml** file. For this, follow these steps: 
-- Using a command line interface, go to your repo folder ('\risk_resilience_models\configs').
+You can install the requirements directly in your preferred environment or use the environment shared in the repository. For the latter, clone this repository to your local machine. Create a conda environment using the **risk_resilience.yml** file. For this, follow these steps: 
+- Using a command line interface, go to your repository folder ('\risk_resilience_models\configs').
 - Then, create the environment `risk_resilience` (the name is automatically given by the .*yml file)
 - Activate the environment in your IDE. 
 
 Previous steps are done with the following commands:
 
 ```shell
-cd "path/of/your/repo"
+cd "path/of/your/repository"
 conda env create -f risk_resilience.yml
 conda activate risk_resilience
 ```
@@ -35,7 +33,7 @@ _Under development_
 
 ### If you are collaborating
 
-If you install any new package, create a .*yml file and replace it with the one in the repo for future reproducibility.
+If you install any new package, create a .*yml file and replace it with the one in the repository for future reproducibility.
 
 ```shell
 conda activate risk_resilience
